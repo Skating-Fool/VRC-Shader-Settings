@@ -1,0 +1,18 @@
+{
+    "name": "skatingfool.shader-settings",
+    "displayName": "SF Shader Settings",
+    "version": "1.2.2",
+    "description": "Shader presets and menu controls",
+    "author": {
+        "name": "SkatingFool",
+        "url": "https://skating-fool.github.io/SkatingFool-VRC-Stuff/"
+    },
+    "gitDependencies": {},
+    "vpmDependencies": {"com.poiyomi.toon": ">=10.0.20"},
+    "legacyFolders": {},
+    "legacyFiles": {},
+    "legacyPackages": [],
+    "hideInEditor": false,
+    "license": "",
+    "unity": "2022.3",
+}
