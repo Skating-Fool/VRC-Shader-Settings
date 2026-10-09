@@ -23,7 +23,7 @@ jobs:
           # Make the name safe for a filename (e.g. @scope/pkg -> scope-pkg)
           SAFE_NAME=$(echo "$NAME" | sed 's/^@//; s#/#-#g')
           echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
-          echo "zip_name=${SAFE_NAME}-${VERSION}.zip" >> "$GITHUB_OUTPUT"
+          echo "zip_name=${SAFE_NAME}_${VERSION}.zip" >> "$GITHUB_OUTPUT"
  
       - name: Create zip of main
         run: |
