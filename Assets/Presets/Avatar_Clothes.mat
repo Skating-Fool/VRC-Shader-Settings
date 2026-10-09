@@ -30,6 +30,10 @@ Material:
     _ClothMetallic_isPreset: true
     _ClothReflectance_isPreset: true
     _ClothSmoothness_isPreset: true
+    _EmissionHueSelectOrShift1_isPreset: true
+    _EmissionHueSelectOrShift2_isPreset: true
+    _EmissionHueSelectOrShift3_isPreset: true
+    _EmissionHueSelectOrShift_isPreset: true
     _EmissionHueShift1Animated: 1
     _EmissionHueShift1_isPreset: true
     _EmissionHueShift2Animated: 1
@@ -37,6 +41,14 @@ Material:
     _EmissionHueShift3Animated: 1
     _EmissionHueShift3_isPreset: true
     _EmissionHueShiftAnimated: 1
+    _EmissionHueShiftColorSpace1_isPreset: true
+    _EmissionHueShiftColorSpace2_isPreset: true
+    _EmissionHueShiftColorSpace3_isPreset: true
+    _EmissionHueShiftColorSpace_isPreset: true
+    _EmissionHueShiftEnabled1_isPreset: true
+    _EmissionHueShiftEnabled2_isPreset: true
+    _EmissionHueShiftEnabled3_isPreset: true
+    _EmissionHueShiftEnabled_isPreset: true
     _EmissionHueShiftSpeed1Animated: 1
     _EmissionHueShiftSpeed1_isPreset: true
     _EmissionHueShiftSpeed2Animated: 1
@@ -2304,6 +2316,7 @@ Material:
     - _MainBrightnessGlobalMask: 0
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainChromatize: 0
+    - _MainColorAdjustClamp: 1
     - _MainColorAdjustTextureUV: 0
     - _MainColorAdjustToggle: 1
     - _MainGamma: 1
@@ -3371,6 +3384,7 @@ Material:
     - _UzumoreEnabled: 1
     - _UzumoreMaskChannel: 3
     - _UzumoreMaskUV: 3
+    - _UzumoreObjectScale: 1
     - _VertexAudioLinkEnabled: 0
     - _VertexBarrelAlpha: 0
     - _VertexBarrelHeight: 0
@@ -3729,10 +3743,10 @@ Material:
     - m_start_depthFX: 0
     - m_start_depthRimLightOptions: 0
     - m_start_dissolve: 0
-    - m_start_emission1Options: 0
+    - m_start_emission1Options: 1
     - m_start_emission2Options: 0
     - m_start_emission3Options: 0
-    - m_start_emissionOptions: 0
+    - m_start_emissionOptions: 1
     - m_start_flipBook: 0
     - m_start_flipBook1: 0
     - m_start_glitter: 0
