@@ -1,7 +1,7 @@
 {
     "name": "skatingfool.shader-settings",
     "displayName": "SF Shader Settings",
-    "version": "1.2.2",
+    "version": "1.2.3",
 	"unity": "2022.3",
     "description": "Shader presets and menu controls",
     "author": {
